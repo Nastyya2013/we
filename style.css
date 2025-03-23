@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+           background-color: #ffffff;
+       }
+       header {
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           background-color: white;
+           padding: 10px 50px;
+           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+       }
+       .logo {
+           display: flex;
+           align-items: center;
+       }
+       .logo img {
+           width: 100px;
+           height: 100px;
+           margin-right: 100px;
+       }
+       .logo h1 {
+           font-size: 25px;
+           color: #36ab07;
+           font-weight: bold;
+           margin: 0;
+       }
+       nav {
+           display: flex;
+           gap: 30px;
+       }
+       nav a {
+           text-decoration: none;
+           color: green;
+           font-size: 25px;
+           font-family: 'Courier New', Courier, monospace;
+       }
+       nav a:hover {
+           text-decoration: underline;
+       }
+.t1{
+    background-color: #EEEEF0;
+    padding: 10px;
+    margin: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+.t2{
+    background-color: #EEEEF0;
+    padding: 10px;
+    margin: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+.p{
+    text-align: center;
+    font-size: 15px;
+}
+footer {
+    text-align: center;
+    background-color: #D9D9D9;
+    padding: 5px;
+}
+.ff{
+ display: inline-block;
+ vertical-align: middle;
+ width: 30px;
+ height: 30px;
+ margin: 0.5px;
+}
+.ii{
+display: inline-block;
+vertical-align: middle;
+width: 30px;
+height: 30px;
+margin: 0.5px;
+}
